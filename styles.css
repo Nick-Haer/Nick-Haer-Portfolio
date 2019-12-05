@@ -1,0 +1,227 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+nav {
+    background-color: black;
+    padding: 2%;
+}
+
+body {
+    background-color: rgb(231, 228, 228);
+}
+
+#jumbotron {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    background-image: url("./images/techno.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#name-header {
+font-size: 4rem;
+text-align: center;
+padding-top: 10%;
+padding-bottom: 2.5%;
+}
+
+#title-header {
+    font-size: 2rem; 
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#about-me-section {
+    padding: 5%;
+}
+
+#about-me-box {
+    border: dotted 1px gray;
+    height: 300px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 2px 2px 2px grey;
+
+}
+
+#profile-pic {
+    height: 75%;
+    width: 30%;
+    padding-top: 5%;
+    padding-left: 5%;
+    float: left;
+    /* display: inline; */
+}
+
+#about-me-divider {
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+#about-me-text {
+    margin-top: 2.5%;
+    font-size: 1.1rem;
+    margin-left: 35%;
+    margin-right: 2%;
+    padding-left: 2%;
+    /* margin-right: 5%; */
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    border-left: darkblue solid 1px;
+}
+
+#about-me-header {
+    font-size: 1.5rem;
+    margin-left: 62.5%;
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+}
+#skill-icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5px;
+    /* align-items: stretch; */
+    height: 400px;
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    overflow: auto;
+    box-shadow: 2px 2px 2px grey;
+    /* width: 49%; */
+}
+
+.skill-div {
+    justify-content: center;
+    /* margin-top: 10px; */
+    width: 25%;
+    height: 30%;
+    /* display: inline-block; */
+    text-align: center;
+    flex-basis: auto;
+    /* flex-grow: 1; */
+}
+
+.skill-image {
+    width: 50%;
+    height: 60%;
+    display: inline-block;
+    transition: all, .5;
+}
+
+.skill-image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.skills-header {
+    /* font-weight: normal; */
+    font-family: 'Raleway', sans-serif;
+    width: 60%;
+    text-align: center;
+    /* border-bottom: darkblue 2px solid; */
+    /* background-color: white; */
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#soft-skill-icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    background-color: white;
+    height: 300px;
+    overflow: auto;
+    box-shadow: 2px 2px 2px grey;
+}
+
+.soft-skill-div {
+    justify-content: center;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+    flex-basis: auto;
+    /* border-radius: 50%; */
+    /* border: black 1px solid; */
+}
+
+.soft-skill-image {
+    width: 45%;
+    height: 100%;
+}
+
+/* 
+#projects-section {
+background-color: darkblue;
+height: 200px;
+} */
+
+#learn-more-section {
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+#learn-more-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 300px;
+    background-color: black;
+    margin: 0 auto;
+    background-color: white;
+    border: dotted 1px gray;
+    box-shadow: black;
+}
+
+.learn-more-column {
+    width: 30%;
+}
+
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+
+#resume-image {
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+}
+/* #rasputin {
+    margin: 0 auto;
+    display: block;
+} */
+
+.portimage {
+    height: 250px;
+}
+
+.resizebody {
+    height: 380px;
+}
+
+.card {
+    border: solid black 2px;
+}
+
+.portCard {
+    width: 20rem;
+}
+
+.linksButton {
+    width: 100%;
+}
+
+.descriptions {
+    position: absolute;
+    bottom: 15px;
+}
+.siteCard {
+    background-image: linear-gradient(lightgray, rgb(206, 203, 203));
+}
+
+
