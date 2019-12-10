@@ -1,8 +1,42 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
-nav {
+#navbar {
     background-color: black;
-    padding: 2%;
+    padding: 3%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* position: absolute; */
+    /* display: grid;
+    grid-template-columns: 70% 30%; */
+}
+#nav-container {
+    position: absolute;
+    right: 8%;
+    text-align: right;
+    top: 40%;
+}
+
+#anvil {
+    width: 100px;
+    height: 100px;
+    margin-left: 13%;
+    /* transition: all 2s .2s; */
+}
+.home {
+    /* border: white 1px solid; */
+    color: white;
+    padding: 7px;
+    font-size: 1.3rem;
+    font-family: 'Raleway', sans-serif;
+    /* transition: all 2s .2s; */
+    /* transition: border .2s .2s; */
+
+}
+
+.home:hover {
+    /* border: white 3px solid; */
+    color: white;
 }
 
 body {
@@ -16,6 +50,27 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#jumbotron h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 1rem solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 5s steps(30, end),
+      moving-line .75s step-end 10;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  /* @keyframes moving-line {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  } */
 
 #name-header {
 font-size: 4rem;
@@ -111,7 +166,6 @@ padding-bottom: 2.5%;
 
 .skill-image:hover {
     transform: scale(1.2);
-    cursor: pointer;
 }
 
 .skills-header {
@@ -154,29 +208,28 @@ padding-bottom: 2.5%;
     height: 100%;
 }
 
-/* 
-#projects-section {
-background-color: darkblue;
-height: 200px;
-} */
 
-#learn-more-section {
-    padding-left: 5%;
-    padding-right: 5%;
-    
+#projects-section {
+padding-left: 10%;
+padding-right: 10%;
 }
 
-#learn-more-container {
+.portfolio-image {
+    width: 300px;
+    height: 300px;
+}
+
+.portfolio-div {
     display: flex;
     justify-content: space-around;
-    width: 60%;
-    height: 300px;
-    background-color: black;
-    margin: 0 auto;
-    background-color: white;
-    border: dotted 1px gray;
-    box-shadow: black;
+    margin-top: 25px;
 }
+
+.project-descriptions {
+    width: 300px;
+}
+
+
 
 .learn-more-column {
     width: 30%;
@@ -224,4 +277,35 @@ height: 200px;
     background-image: linear-gradient(lightgray, rgb(206, 203, 203));
 }
 
+#learn-more-section {
+padding: 5%;  
+}
+
+#learn-more-container {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+
+#contact-me-container {
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.learn-header {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.row-separator {
+    border: black solid 2px;
+}
+
+#envelope-div {
+text-align: center;
+}
 

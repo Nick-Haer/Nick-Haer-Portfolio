@@ -1,0 +1,23 @@
+{
+  "name": "nick-haer-portfolio",
+  "version": "1.0.0",
+  "description": "My web development portfolio, feel free to take a look and see what I've been working on.",
+  "main": "app.js",
+  "dependencies": {
+    "vivus": "^0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Haer/Nick-Haer-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nick-Haer/Nick-Haer-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nick-Haer/Nick-Haer-Portfolio#readme"
+}
