@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "My web development portfolio, feel free to take a look and see what I've been working on.",
   "main": "app.js",
-  "dependencies": {
-    "vivus": "^0.4.5"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
