@@ -226,7 +226,7 @@ padding-right: 10%;
 .portfolio-div {
     display: flex;
     justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 .project-descriptions {
@@ -321,11 +321,17 @@ text-align: center;
 }
 
 .portfolio-link {
+    display: block;
     color: black;
     border: black solid 2px;
+    margin-top: 10px;
     padding: 10px;
-    border-radius: 40%;
-    background-color: rgb(59, 84, 92);
+    /* border-radius: 40%; */
+    /* background-color: rgb(59, 84, 92); */
+}
+
+.contact-link {
+    color: black;
 }
 /* codepen */
 
