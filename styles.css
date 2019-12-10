@@ -208,6 +208,10 @@ padding-bottom: 2.5%;
     height: 100%;
 }
 
+.soft-skill-image:hover {
+    transform: scale(1.2);
+}
+
 
 #projects-section {
 padding-left: 10%;
@@ -279,6 +283,8 @@ padding-right: 10%;
 
 #learn-more-section {
 padding: 5%;  
+background-color: grey;
+ margin-top: 5%;
 }
 
 #learn-more-container {
@@ -305,7 +311,7 @@ padding: 5%;
     border: black solid 2px;
 }
 
-#envelope-div {
+.contact-icon-div {
 text-align: center;
 }
 
