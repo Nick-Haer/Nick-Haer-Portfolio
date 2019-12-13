@@ -2,13 +2,11 @@
 
 #navbar {
     background-color: black;
-    padding: 3%;
-    position: -webkit-sticky; /* Safari */
+    padding: 1.5%;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
-    /* position: absolute; */
-    /* display: grid;
-    grid-template-columns: 70% 30%; */
+    z-index: 1;
 }
 #nav-container {
     position: absolute;
@@ -21,21 +19,16 @@
     width: 100px;
     height: 100px;
     margin-left: 13%;
-    /* transition: all 2s .2s; */
 }
 .home {
-    /* border: white 1px solid; */
     color: white;
     padding: 7px;
     font-size: 1.3rem;
     font-family: 'Raleway', sans-serif;
-    /* transition: all 2s .2s; */
-    /* transition: border .2s .2s; */
 
 }
 
 .home:hover {
-    /* border: white 3px solid; */
     color: white;
 }
 
@@ -48,11 +41,11 @@ body {
 }
 
 #jumbotron h1 {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: 1rem solid transparent; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden; 
+    border-right: 1rem solid transparent; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .75rem; 
     animation: 
       typing 5s steps(30, end),
       moving-line .75s step-end 10;
@@ -236,6 +229,7 @@ padding-right: 10%;
     height: 300px;
     transition: all .5s ease-in;
     margin-bottom: 5px;
+    z-index: -1;
 }
 
 .portfolio-image:hover {
