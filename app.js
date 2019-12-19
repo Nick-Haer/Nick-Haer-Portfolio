@@ -9,21 +9,3 @@ function scrollCheck () {
     document.querySelector("#navbar").style.padding = "1.5%";
 }
 }
-
-// let paused = false;
-
-// const stars = document.querySelector("#jumbotron")
-
-// stars.addEventListener("click", toggleVideo)
-
-// // .addEventListener("click", () => console.log("muppet"))
-// function toggleVideo () {
-//     if (paused) {
-//         stars.firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.play();
-//         paused = false;
-//     } else {
-//         stars.firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling.pause()
-//         paused = true;
-//     }
-
-// }
