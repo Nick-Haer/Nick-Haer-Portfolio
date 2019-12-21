@@ -1,284 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Nick Haer Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="./pictures/tech-n.jpg"
+      type="image/x-icon"
+    />
+  </head>
 
-<body>
-
+  <body>
     <nav id="navbar">
-        <img id="anvil" src="./pictures/anvil-impact.svg" alt="">
-        <div id="nav-container">
-            <a class="home" href="#jumbotron">Home</a>
-            <a class="home" href="#about-me-section">About</a>
-            <a class="home" href="#skill-icons-container">Skills</a>
-            <a class="home" href="#projects-section">Portfolio</a>
-            <a class="home" href="#learn-more-section">Contact</a>
-        </div>
-
+      <img id="anvil" src="./pictures/anvil-impact.svg" alt="" />
+      <div id="nav-container">
+        <a class="home" href="#jumbotron">Home</a>
+        <a class="home" href="#about-me-section">About</a>
+        <a class="home" href="#skill-icons-container">Skills</a>
+        <a class="home" href="#projects-section">Portfolio</a>
+        <a class="home" href="#learn-more-section">Contact</a>
+      </div>
     </nav>
     <section id="jumbotron">
-        <h1 id="name-header">Nicholas Haer</h1>
-        <h3 id="title-header">Full Stack Web Developer Portfolio</h3>
-        <video id="stars-video" autoplay muted loop>
-            
-                <source  src="./pictures/Animation Of Stars.mp4"
-                        type="video/mp4">
-            
-                Sorry, your browser doesn't support embedded videos.
-            </video>    
+      <h1 id="name-header">Nicholas Haer</h1>
+      <h3 id="title-header">Full Stack Web Developer Portfolio</h3>
+      <video id="stars-video" autoplay muted loop>
+        <source src="./pictures/Animation Of Stars.mp4" type="video/mp4" />
+
+        Sorry, your browser doesn't support embedded videos.
+      </video>
     </section>
 
     <section id="about-me-section">
+      <div id="about-me-box">
+        <img id="profile-pic" src="./images/nickpic.jpg" alt="Picture of me" />
 
-        <div id="about-me-box">
+        <h5 id="about-me-header">About Me</h5>
 
-            <img id="profile-pic" src="./images/nickpic.jpg" alt="Picture of me">
+        <p id="about-me-text">
+          Welcome to my Web Developer portfolio! Before learning to create
+          websites, I worked as an archaeologist and then with a nonprofit
+          focused on the rights of immigrants. My background in conservation and
+          aid work now provides my motivation for creating beautiful and
+          effective websites. With each project, I aim to create something that
+          can inform, connect, or assist, and can do it while keeping a focus on
+          elegant design.
 
-            <h5 id="about-me-header">About Me</h5>
+          <!-- <hr id="about-me-divider"> -->
+        </p>
+      </div>
 
+      <h2 class="skills-header">Technical Skills</h2>
 
-            <p id="about-me-text">Welcome to my Web Developer portfolio! Before learning to create websites, I worked as
-                an archaeologist and then with a nonprofit focused on the rights of immigrants. My background in
-                conservation and aid work now provides my motivation for creating beautiful and effective websites.
-                With
-                each project, I aim to create something that can inform, connect, or assist, and can do it while
-                keeping a focus on elegant design.
-
-                <!-- <hr id="about-me-divider"> -->
-
+      <div id="skill-icons-container">
+        <div class="skill-div">
+          <img class="skill-image" src="./images/html.png" alt="jsIcon" />
+          <div>HTML5</div>
         </div>
 
-        <h2 class="skills-header">Technical Skills</h2>
-
-        <div id="skill-icons-container">
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/html.png" alt="jsIcon">
-                <div>HTML5</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/css3.png" alt="jsIcon">
-                <div>CSS3</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/javascript.svg" alt="jsIcon">
-                <div>Javascript</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/jquery.png" alt="jsIcon">
-                <div>jQuery</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/logo-bootstrap.svg" alt="jsIcon">
-                <div>Bootstrap</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/mongo.png" alt="jsIcon">
-                <div>MongoDB</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png" alt="jsIcon">
-                <div>MySql</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/node.png" alt="jsIcon">
-                <div>Node</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/react-icon.png" alt="jsIcon">
-                <div>React</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/redux.png" alt="jsIcon">
-                <div>Redux</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/react-native.png" alt="jsIcon">
-                <div>React Native</div>
-            </div>
-
-            <div class="skill-div">
-                <img class="skill-image" src="./images/git.png" alt="jsIcon">
-                <div>Git</div>
-            </div>
-
-
+        <div class="skill-div">
+          <img class="skill-image" src="./images/css3.png" alt="jsIcon" />
+          <div>CSS3</div>
         </div>
 
-        <h2 class="skills-header">Soft Skills</h2>
-<!-- animate these headers -->
-        <div id="soft-skill-icons-container">
-            <div class="soft-skill-div">
-                <img class="soft-skill-image" src="./images/communication-1.png" alt="Communication">
-                <div>Skilled Communicator</div>
-            </div>
-
-
-            <div class="soft-skill-div">
-                <img class="soft-skill-image" src="./images/organizing.png" alt="Organizing">
-                <div>Effective Organizer</div>
-            </div>
-
-            <div class="soft-skill-div">
-                <img class="soft-skill-image" src="./images/problem-solving.png" alt="Problem Solving">
-                <div>Problem Solver</div>
-            </div>
-
-            <div class="soft-skill-div">
-                <img class="soft-skill-image" src="./images/initiative.png" alt="Problem Solving">
-                <div>Self-Starter</div>
-            </div>
-
+        <div class="skill-div">
+          <img class="skill-image" src="./images/javascript.svg" alt="jsIcon" />
+          <div>Javascript</div>
         </div>
 
+        <div class="skill-div">
+          <img class="skill-image" src="./images/jquery.png" alt="jsIcon" />
+          <div>jQuery</div>
+        </div>
 
-        <!-- portfolio -->
+        <div class="skill-div">
+          <img
+            class="skill-image"
+            src="./images/logo-bootstrap.svg"
+            alt="jsIcon"
+          />
+          <div>Bootstrap</div>
+        </div>
 
-        <!-- connect with me options -->
+        <div class="skill-div">
+          <img class="skill-image" src="./images/mongo.png" alt="jsIcon" />
+          <div>MongoDB</div>
+        </div>
 
-        <!-- contact me -->
+        <div class="skill-div">
+          <img
+            class="skill-image"
+            src="./images/0dd7193f-e747-4a15-b797-818b9fac3656-mysql.png"
+            alt="jsIcon"
+          />
+          <div>MySql</div>
+        </div>
 
+        <div class="skill-div">
+          <img class="skill-image" src="./images/node.png" alt="jsIcon" />
+          <div>Node</div>
+        </div>
 
+        <div class="skill-div">
+          <img class="skill-image" src="./images/react-icon.png" alt="jsIcon" />
+          <div>React</div>
+        </div>
 
+        <div class="skill-div">
+          <img class="skill-image" src="./images/redux.png" alt="jsIcon" />
+          <div>Redux</div>
+        </div>
 
+        <div class="skill-div">
+          <img
+            class="skill-image"
+            src="./images/react-native.png"
+            alt="jsIcon"
+          />
+          <div>React Native</div>
+        </div>
+
+        <div class="skill-div">
+          <img class="skill-image" src="./images/git.png" alt="jsIcon" />
+          <div>Git</div>
+        </div>
+      </div>
+
+      <h2 class="skills-header">Soft Skills</h2>
+      <!-- animate these headers -->
+      <div id="soft-skill-icons-container">
+        <div class="soft-skill-div">
+          <img
+            class="soft-skill-image"
+            src="./images/communication-1.png"
+            alt="Communication"
+          />
+          <div>Skilled Communicator</div>
+        </div>
+
+        <div class="soft-skill-div">
+          <img
+            class="soft-skill-image"
+            src="./images/organizing.png"
+            alt="Organizing"
+          />
+          <div>Effective Organizer</div>
+        </div>
+
+        <div class="soft-skill-div">
+          <img
+            class="soft-skill-image"
+            src="./images/problem-solving.png"
+            alt="Problem Solving"
+          />
+          <div>Problem Solver</div>
+        </div>
+
+        <div class="soft-skill-div">
+          <img
+            class="soft-skill-image"
+            src="./images/initiative.png"
+            alt="Problem Solving"
+          />
+          <div>Self-Starter</div>
+        </div>
+      </div>
+
+      <!-- portfolio -->
+
+      <!-- connect with me options -->
+
+      <!-- contact me -->
     </section>
 
     <section id="projects-section">
-        <div class="portfolio-div">
-            <div class="portfolio-project">
-                <img class="portfolio-image" src="./pictures/open-road1.jpg" alt="the wide open road">
-                <div class="portfolio-content-box">
-                    <h5>Road Ranger</h5>
-                    <p class="project-descriptions"> Created using React Native, this Android/IOS app makes travel
-                        better by letting users create custom map markers via voice/text or a lean button-based UI, and
-                        then share them with other users, receiving updates via text to voice.</p>
-                    <a target="blank" class="portfolio-link" href="https://github.com/abayindir1/Road-Ranger">Project Code on Github</a>
-                </div>
-            </div>
-            <div class="portfolio-project">
-                <img class="portfolio-image" src="./pictures/D2115_143_304_1200.jpg" alt="stately man read important looking newspaper">
-                <div class="portfolio-content-box">
-                    <h5>The Bottomless Pit</h5>
-                    <p class="project-descriptions"> Looking for a laugh? This app is a web scraper targeting the joke news site Clickhole, giving users the option to save articles to a database, and then add notes to them. Simply click the "Scrape" button to show up all new clickhole articles.</p>
-                    <a target="blank" class="portfolio-link" href="https://bottomless-pit.herokuapp.com/">See the Deployed Project</a>
-                    <a target="blank" class="portfolio-link" href="https://github.com/Nick-Haer/Clickhole-Web-Scraper">Project Code on Github</a>
-                </div>
-            </div>
-            <div class="portfolio-project">
-                <img class="portfolio-image" src="./pictures/highbeer.jpg" alt="a nice frothy dark beer">
-                <div class="portfolio-content-box">
-                    <h5>Brewery Finder</h5>
-                    <p class="project-descriptions"> This site is for all craft beer lovers in Dallas! Simply answer three questions about the kinds of beer you like, and receive a list of all the craft breweries in Dallas that have beers that match your preferences. Then select the breweries you like best on an interactive map to see all the matching beers they carry.
-                        </p>
-                    <a target="blank" class="portfolio-link" href="https://nima99.github.io/The-Brewers/">See the Deployed Project</a>
-                    <a target="blank" class="portfolio-link" href="https://github.com/Nima99/The-Brewers">Project Code on Github</a>
-                </div>
-            </div>
+      <div class="portfolio-div">
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
+            src="./pictures/open-road1.jpg"
+            alt="the wide open road"
+          />
+          <div class="portfolio-content-box">
+            <h5>Road Ranger</h5>
+            <p class="project-descriptions">
+              Created using React Native, this Android/IOS app makes travel
+              better by letting users create custom map markers via voice/text
+              or a lean button-based UI, and then share them with other users,
+              receiving updates via text to voice.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/abayindir1/Road-Ranger"
+              >Project Code on Github</a
+            >
+          </div>
         </div>
-        <div class="portfolio-div">
-            <div class="portfolio-project">
-                <img class="portfolio-image" src="./pictures/rorschach.jpg" alt="A rorschach inkblot test">
-                <div class="portfolio-content-box">
-                    <h5>Videgoame Matchmaker</h5>
-                    <p class="project-descriptions"> This offbeat app helps users match with new video games by using the results of a series of Rorschach tests. The results from the tests are transformed into a list of games from the IGDB game database. Users can also create accounts/login, and save the games they clicked with to come back to later. </p>
-                    <a target="blank" class="portfolio-link" href="https://next-venture.herokuapp.com/">See the Deployed Project</a>
-                    <a target="blank" class="portfolio-link" href="https://github.com/Nick-Haer/Videogame-Matchmaker">Project Code on Github</a>
-                </div>
-            </div>
-            <div class="portfolio-project">
-                <img class="portfolio-image" src="./pictures/quasar.jpg" alt="A quasar in the depths of space">
-                <div class="portfolio-content-box">
-                    <h5>Final Frontier Guessing Game</h5>
-                    <p class="project-descriptions"> Ready for an interstellar vacation? This hangman style word guessing game takes you through the galaxies' greatest treasures, with matching music selections for ambiance. Guess the right word to travel to that location, and take a tour of the stars. </p>
-                    <a target="blank" class="portfolio-link" href="https://nick-haer.github.io/Question-Game-Final-Frontier/">See the Deployed Project</a>
-                    <a target="blank" class="portfolio-link" href="https://github.com/Nick-Haer/Question-Game-Final-Frontier">Project Code on Github</a>
-                </div>
-            </div>
-            <div class="portfolio-project">
-                <img class="portfolio-image" src="./pictures/book.jpg" alt="An open book of possibilities">
-                <div class="portfolio-content-box">
-                    <h5>Reactive-Reading</h5>
-                    <p class="project-descriptions"> Ready for a great new book? This app uses google books api along with react and a Mongo database to support any reader in finding their next life changing book. Simply search for aspects of a book you'd like to read, and once the results have been displayed, save the books you'd like to for later reading.
-                    </p>
-                    <a target="blank" class="portfolio-link" href="https://reactive-reading.herokuapp.com/">See the Deployed Project</a>
-                    <a target="blank" class="portfolio-link" href="https://github.com/Nick-Haer/reactive-reading">Project Code on Github</a>
-                </div>
-            </div>
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
+            src="./pictures/D2115_143_304_1200.jpg"
+            alt="stately man read important looking newspaper"
+          />
+          <div class="portfolio-content-box">
+            <h5>The Bottomless Pit</h5>
+            <p class="project-descriptions">
+              Looking for a laugh? This app is a web scraper targeting the joke
+              news site Clickhole, giving users the option to save articles to a
+              database, and then add notes to them. Simply click the "Scrape"
+              button to show up all new clickhole articles.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://bottomless-pit.herokuapp.com/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nick-Haer/Clickhole-Web-Scraper"
+              >Project Code on Github</a
+            >
+          </div>
         </div>
-
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
+            src="./pictures/highbeer.jpg"
+            alt="a nice frothy dark beer"
+          />
+          <div class="portfolio-content-box">
+            <h5>Brewery Finder</h5>
+            <p class="project-descriptions">
+              This site is for all craft beer lovers in Dallas! Simply answer
+              three questions about the kinds of beer you like, and receive a
+              list of all the craft breweries in Dallas that have beers that
+              match your preferences. Then select the breweries you like best on
+              an interactive map to see all the matching beers they carry.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://nima99.github.io/The-Brewers/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nima99/The-Brewers"
+              >Project Code on Github</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-div">
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
+            src="./pictures/rorschach.jpg"
+            alt="A rorschach inkblot test"
+          />
+          <div class="portfolio-content-box">
+            <h5>Videgoame Matchmaker</h5>
+            <p class="project-descriptions">
+              This offbeat app helps users match with new video games by using
+              the results of a series of Rorschach tests. The results from the
+              tests are transformed into a list of games from the IGDB game
+              database. Users can also create accounts/login, and save the games
+              they clicked with to come back to later.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://next-venture.herokuapp.com/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nick-Haer/Videogame-Matchmaker"
+              >Project Code on Github</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
+            src="./pictures/quasar.jpg"
+            alt="A quasar in the depths of space"
+          />
+          <div class="portfolio-content-box">
+            <h5>Final Frontier Guessing Game</h5>
+            <p class="project-descriptions">
+              Ready for an interstellar vacation? This hangman style word
+              guessing game takes you through the galaxies' greatest treasures,
+              with matching music selections for ambiance. Guess the right word
+              to travel to that location, and take a tour of the stars.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://nick-haer.github.io/Question-Game-Final-Frontier/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nick-Haer/Question-Game-Final-Frontier"
+              >Project Code on Github</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
+            src="./pictures/book.jpg"
+            alt="An open book of possibilities"
+          />
+          <div class="portfolio-content-box">
+            <h5>Reactive-Reading</h5>
+            <p class="project-descriptions">
+              Ready for a great new book? This app uses google books api along
+              with react and a Mongo database to support any reader in finding
+              their next life changing book. Simply search for aspects of a book
+              you'd like to read, and once the results have been displayed, save
+              the books you'd like to for later reading.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://reactive-reading.herokuapp.com/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nick-Haer/reactive-reading"
+              >Project Code on Github</a
+            >
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="learn-more-section">
-        <div id="learn-more-container">
-            <div class="contact-icon-div">
-                <a class="contact-link" target="blank" href="https://github.com/Nick-Haer">
-                <i class="fab fa-github fa-5x"></i></a>
-                <h5>Github</h5>
-            </div>
-            <div class="contact-icon-div">
-                    <a class="contact-link" target="blank" href="https://www.linkedin.com/in/nicholashaer/">
-                <i class="fab fa-linkedin fa-5x"></i></a>
-                <h5>Linkedin</h5>
-            </div>
-            <div class="contact-icon-div">
-                    <a class="contact-link" target="blank" download href="./pictures/2019 Resume Nicholas Haer.docx">
-                <i class="fas fa-file fa-5x"></i></a>
-                <h5>Download Resume</h5>
-            </div>
-
-
-
+      <div id="learn-more-container">
+        <div class="contact-icon-div">
+          <a
+            class="contact-link"
+            target="blank"
+            href="https://github.com/Nick-Haer"
+          >
+            <i class="fab fa-github fa-5x"></i
+          ></a>
+          <h5>Github</h5>
         </div>
-        <div id="contact-me-container">
-            <div class="contact-icon-div">
-                <i class="fas fa-phone fa-5x"></i>
-                <hr class="row-separator">
-                <h5>469-865-8138</h5>
-            </div>
-
-            <div class="contact-icon-div">
-                <i class="fas fa-envelope-square fa-5x"></i>
-                <hr class="row-separator">
-                <h5>nhaer123@gmail.com</h5>
-            </div>
-
-
+        <div class="contact-icon-div">
+          <a
+            class="contact-link"
+            target="blank"
+            href="https://www.linkedin.com/in/nicholashaer/"
+          >
+            <i class="fab fa-linkedin fa-5x"></i
+          ></a>
+          <h5>Linkedin</h5>
+        </div>
+        <div class="contact-icon-div">
+          <a
+            class="contact-link"
+            target="blank"
+            download
+            href="./pictures/2019 Resume Nicholas Haer.docx"
+          >
+            <i class="fas fa-file fa-5x"></i
+          ></a>
+          <h5>Download Resume</h5>
+        </div>
+      </div>
+      <div id="contact-me-container">
+        <div class="contact-icon-div">
+          <i class="fas fa-phone fa-5x"></i>
+          <hr class="row-separator" />
+          <h5>469-865-8138</h5>
         </div>
 
+        <div class="contact-icon-div">
+          <i class="fas fa-envelope-square fa-5x"></i>
+          <hr class="row-separator" />
+          <h5>nhaer123@gmail.com</h5>
+        </div>
+      </div>
     </section>
 
-
-    <script async src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script
+      async
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script async src="./app.js"></script>
-    <script src="https://kit.fontawesome.com/b983e9d11e.js" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/b983e9d11e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
