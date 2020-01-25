@@ -402,15 +402,22 @@ body {
   }
 
   #profile-pic {
-    height: 30%;
+    height: 60%;
     width: 50%;
     justify-self: center;
     align-self: flex-start;
   }
 
   .about-me-grid {
-    height: 1200px;
+    height: 800px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 4fr;
+  }
+
+  .home {
+    color: white;
+    padding: 2px;
+    font-size: 0.75rem;
+    font-family: 'Raleway', sans-serif;
   }
 }
