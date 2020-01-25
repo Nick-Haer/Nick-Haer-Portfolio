@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#navbar {
+/* #navbar {
   background-color: black;
   padding: 1.5%;
   position: -webkit-sticky;
@@ -21,12 +21,30 @@ html {
   right: 8%;
   text-align: right;
   top: 40%;
+} */
+
+.grid-container {
+  padding: 1.5%;
+  display: grid;
+  grid-template-columns: 20% auto 35%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: black;
+}
+
+.nav-links {
+  align-self: center;
+  justify-self: center;
+  grid-column: 3/4;
 }
 
 #anvil {
+  align-self: center;
+  justify-self: center;
   width: 100px;
   height: 100px;
-  margin-left: 13%;
 }
 .home {
   color: white;
@@ -37,6 +55,12 @@ html {
 
 .home:hover {
   color: white;
+}
+
+@media only screen and (max-width: 375) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 body {
@@ -92,7 +116,7 @@ body {
   top: -650px;
   /* height: 10%; */
   z-index: -1;
-  margin-bottom: -575px;
+  margin-bottom: -550px;
 }
 #about-me-section {
   padding: 5%;
