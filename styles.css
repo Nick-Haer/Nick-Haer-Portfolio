@@ -110,7 +110,8 @@ body {
   height: 300px;
   margin: 0 auto;
   border-radius: 50%;
-  background: repeating-linear-gradient(rgb(121, 121, 216), rgb(155, 144, 144));
+  background: turquoise;
+  transition: all 1s;
 }
 
 #profile-pic {
@@ -411,7 +412,7 @@ body {
   .about-me-grid {
     height: 800px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 6fr;
   }
 
   .home {
