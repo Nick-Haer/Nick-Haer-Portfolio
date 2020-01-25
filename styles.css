@@ -197,11 +197,30 @@ body {
   padding-right: 10%;
 }
 
+@keyframes color-shift {
+  0% {
+    background-color: blue;
+  }
+  50% {
+    background-color: turquoise;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: blue;
+  }
+}
+
 .portfolio-div {
+  background-color: turquoise;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 50px;
+  /* padding-top: 25px 0 20px 0; */
+  animation: color-shift;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
 
 .portfolio-image {
@@ -403,14 +422,14 @@ body {
   }
 
   #profile-pic {
-    height: 60%;
+    height: 50%;
     width: 50%;
     justify-self: center;
     align-self: flex-start;
   }
 
   .about-me-grid {
-    height: 800px;
+    height: 1000px;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 6fr;
   }
