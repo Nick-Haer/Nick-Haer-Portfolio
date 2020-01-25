@@ -199,7 +199,7 @@ body {
 
 @keyframes color-shift {
   0% {
-    background-color: blue;
+    background-color: lightblue;
   }
   50% {
     background-color: turquoise;
@@ -208,16 +208,17 @@ body {
     background-color: green;
   }
   100% {
-    background-color: blue;
+    background-color: lightblue;
   }
 }
 
 .portfolio-div {
-  background-color: turquoise;
+  background-color: blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   /* padding-top: 25px 0 20px 0; */
+  padding: 50px;
   animation: color-shift;
   animation-duration: 15s;
   animation-iteration-count: infinite;
