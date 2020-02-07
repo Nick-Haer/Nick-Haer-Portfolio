@@ -116,7 +116,7 @@ body {
   border-radius: 20%;
 }
 
-.about-me-text {
+#about-me-div {
   padding: 6% 10% 10% 10%;
 }
 #skill-icons-container {
@@ -423,16 +423,23 @@ body {
   }
 
   #profile-pic {
-    height: 50%;
+    height: 100%;
     width: 70%;
     justify-self: center;
     align-self: flex-start;
   }
 
   .about-me-grid {
-    height: 700px;
+    height: 400px;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 6fr;
+    grid-template-rows: 1fr 2fr;
+  }
+  #about-me-section {
+    padding: 2%;
+  }
+
+  #about-me-div {
+    padding: 2%;
   }
 
   .home {
