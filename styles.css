@@ -101,21 +101,6 @@ body {
   padding: 8%;
 }
 
-@keyframes color-shift {
-  0% {
-    background-color: lightblue;
-  }
-  50% {
-    background-color: turquoise;
-  }
-  75% {
-    background-color: green;
-  }
-  100% {
-    background-color: lightblue;
-  }
-}
-
 .about-me-grid {
   font-family: 'Raleway', sans-serif;
   display: grid;
@@ -125,7 +110,7 @@ body {
   height: 300px;
   margin: 0 auto;
   border-radius: 50%;
-  background: turquoise;
+  background: rgb(48, 167, 155);
 }
 
 #profile-pic {
@@ -287,12 +272,27 @@ body {
   background-image: linear-gradient(lightgray, rgb(206, 203, 203));
 }
 
+@keyframes color-shift {
+  0% {
+    background-color: rgb(48, 167, 155);
+  }
+  50% {
+    background-color: green;
+  }
+  75% {
+    background-color: rgb(33, 126, 118);
+  }
+  100% {
+    background-color: rgb(48, 167, 155);
+  }
+}
+
 #learn-more-section {
   padding: 5%;
   background-color: grey;
   margin-top: 5%;
   animation: color-shift;
-  animation-duration: 15s;
+  animation-duration: 7s;
   animation-iteration-count: infinite;
 }
 
@@ -428,7 +428,7 @@ body {
   }
 
   #profile-pic {
-    height: 70%;
+    height: 30%;
     width: 70%;
     justify-self: center;
     align-self: flex-start;
