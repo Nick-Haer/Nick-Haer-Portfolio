@@ -366,6 +366,7 @@ body {
   }
 
   .about-me-grid {
+    color: aqua;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -426,12 +427,12 @@ body {
   #profile-pic {
     height: 150px;
     width: 70%;
-    justify-self: center;
-    align-self: flex-start;
   }
 
   .about-me-grid {
     height: 600px;
+    color: black;
+
     /* display: grid; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
