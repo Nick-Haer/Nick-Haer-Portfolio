@@ -101,6 +101,21 @@ body {
   padding: 8%;
 }
 
+@keyframes color-shift {
+  0% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: turquoise;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: lightblue;
+  }
+}
+
 .about-me-grid {
   font-family: 'Raleway', sans-serif;
   display: grid;
@@ -111,7 +126,6 @@ body {
   margin: 0 auto;
   border-radius: 50%;
   background: turquoise;
-  transition: all 1s;
 }
 
 #profile-pic {
@@ -197,30 +211,11 @@ body {
   padding-right: 10%;
 }
 
-@keyframes color-shift {
-  0% {
-    background-color: lightblue;
-  }
-  50% {
-    background-color: turquoise;
-  }
-  75% {
-    background-color: green;
-  }
-  100% {
-    background-color: lightblue;
-  }
-}
-
 .portfolio-div {
-  background-color: blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 50px;
-  animation: color-shift;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
 }
 
 .portfolio-div:nth-of-type(odd) {
@@ -296,6 +291,9 @@ body {
   padding: 5%;
   background-color: grey;
   margin-top: 5%;
+  animation: color-shift;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
 }
 
 #learn-more-container {
