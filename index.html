@@ -28,17 +28,6 @@
   </head>
 
   <body>
-    <!-- <nav id="navbar">
-      <img id="anvil" src="./pictures/anvil-impact.svg" alt="" />
-      <div id="nav-container">
-        <a class="home" href="#jumbotron">Home</a>
-        <a class="home" href="#about-me-section">About</a>
-        <a class="home" href="#skill-icons-container">Skills</a>
-        <a class="home" href="#projects-section">Portfolio</a>
-        <a class="home" href="#learn-more-section">Contact</a>
-      </div>
-    </nav> -->
-
     <div class="grid-container">
       <img id="anvil" src="./pictures/anvil-impact.svg" alt="" />
       <div class="nav-links">
@@ -200,16 +189,51 @@
         <div class="portfolio-project">
           <img
             class="portfolio-image"
+            src="./pictures//wave.jpeg"
+            alt="A quasar in the depths of space"
+          />
+          <div class="portfolio-content-box">
+            <h5>Picture Poetry</h5>
+            <h6 class="project-tech">MongoDB, Express, React, Node, Redux</h6>
+            <p class="project-descriptions">
+              Love painting and poems? Find both, and limitless inspiration,
+              here! Users are prompted with a painting selected at random from
+              the MET, and can then write a poem inspired by that painting,
+              guided by what feelings strike them. You can also browse the work
+              of other picture poets, saving the works that you like best to
+              your own collection.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://picturepoetry.herokuapp.com/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nick-Haer/picture-poetry"
+              >Project Code on Github</a
+            >
+          </div>
+        </div>
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
             src="./pictures/open-road1.jpg"
             alt="the wide open road"
           />
           <div class="portfolio-content-box">
             <h5>Road Ranger</h5>
+            <h6 class="project-tech">
+              React Native, MongoDB, Express, Node, Native-Maps
+            </h6>
             <p class="project-descriptions">
               Created using React Native, this Android/IOS app makes travel
               better by letting users create custom map markers via voice/text
               or a lean button-based UI, and then share them with other users,
-              receiving updates via text to voice.
+              receiving updates via text to voice. Check out the github to see
+              the code and some gifs of this mobile app in action.
             </p>
             <a
               target="blank"
@@ -222,11 +246,48 @@
         <div class="portfolio-project">
           <img
             class="portfolio-image"
+            src="./pictures/book.jpg"
+            alt="An open book of possibilities"
+          />
+          <div class="portfolio-content-box">
+            <h5>Reactive-Reading</h5>
+            <h6 class="project-tech">
+              MongoDB, Express, React, Node, Googlebooks API
+            </h6>
+            <p class="project-descriptions">
+              Ready for a great new book? This app uses google books api along
+              with react and a Mongo database to support any reader in finding
+              their next life changing book. Simply search for aspects of a book
+              you'd like to read, and once the results have been displayed, save
+              the books you'd like to for later reading.
+            </p>
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://reactive-reading.herokuapp.com/"
+              >See the Deployed Project</a
+            >
+            <a
+              target="blank"
+              class="portfolio-link"
+              href="https://github.com/Nick-Haer/reactive-reading"
+              >Project Code on Github</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-div">
+        <div class="portfolio-project">
+          <img
+            class="portfolio-image"
             src="./pictures/D2115_143_304_1200.jpg"
             alt="stately man read important looking newspaper"
           />
           <div class="portfolio-content-box">
             <h5>The Bottomless Pit</h5>
+            <h6 class="project-tech">
+              MongoDB, Bootstrap, Handlebars, Node, jQuery
+            </h6>
             <p class="project-descriptions">
               Looking for a laugh? This app is a web scraper targeting the joke
               news site Clickhole, giving users the option to save articles to a
@@ -250,34 +311,34 @@
         <div class="portfolio-project">
           <img
             class="portfolio-image"
-            src="./pictures/highbeer.jpg"
-            alt="a nice frothy dark beer"
+            src="./pictures/computer.jpg"
+            alt="space, the final frontier..."
           />
           <div class="portfolio-content-box">
-            <h5>Brewery Finder</h5>
+            <h5>Programming Trivia Game</h5>
+            <h6 class="project-tech">
+              HTML, CSS, JavaScript, jQuery, GiphyAPI
+            </h6>
             <p class="project-descriptions">
-              This site is for all craft beer lovers in Dallas! Simply answer
-              three questions about the kinds of beer you like, and receive a
-              list of all the craft breweries in Dallas that have beers that
-              match your preferences. Then select the breweries you like best on
-              an interactive map to see all the matching beers they carry.
+              Ready to test how well you know your history of code? Take this
+              fun trivia quiz to learn about the history of programming, or to
+              confirm your vast knowledge. Enjoy some integrated gifs along the
+              way, but don't let the timer run out.
             </p>
             <a
               target="blank"
               class="portfolio-link"
-              href="https://nima99.github.io/The-Brewers/"
+              href="https://nick-haer.github.io/TriviaGame/"
               >See the Deployed Project</a
             >
             <a
               target="blank"
               class="portfolio-link"
-              href="https://github.com/Nima99/The-Brewers"
+              href="https://github.com/Nick-Haer/TriviaGame"
               >Project Code on Github</a
             >
           </div>
         </div>
-      </div>
-      <div class="portfolio-div">
         <div class="portfolio-project">
           <img
             class="portfolio-image"
@@ -286,6 +347,9 @@
           />
           <div class="portfolio-content-box">
             <h5>Videgoame Matchmaker</h5>
+            <h6 class="project-tech">
+              Node, Express, mySQL, Handlebars, Passport
+            </h6>
             <p class="project-descriptions">
               This offbeat app helps users match with new video games by using
               the results of a series of Rorschach tests. The results from the
@@ -303,63 +367,6 @@
               target="blank"
               class="portfolio-link"
               href="https://github.com/Nick-Haer/Videogame-Matchmaker"
-              >Project Code on Github</a
-            >
-          </div>
-        </div>
-        <div class="portfolio-project">
-          <img
-            class="portfolio-image"
-            src="./pictures/quasar.jpg"
-            alt="A quasar in the depths of space"
-          />
-          <div class="portfolio-content-box">
-            <h5>Final Frontier Guessing Game</h5>
-            <p class="project-descriptions">
-              Ready for an interstellar vacation? This hangman style word
-              guessing game takes you through the galaxies' greatest treasures,
-              with matching music selections for ambiance. Guess the right word
-              to travel to that location, and take a tour of the stars.
-            </p>
-            <a
-              target="blank"
-              class="portfolio-link"
-              href="https://nick-haer.github.io/Question-Game-Final-Frontier/"
-              >See the Deployed Project</a
-            >
-            <a
-              target="blank"
-              class="portfolio-link"
-              href="https://github.com/Nick-Haer/Question-Game-Final-Frontier"
-              >Project Code on Github</a
-            >
-          </div>
-        </div>
-        <div class="portfolio-project">
-          <img
-            class="portfolio-image"
-            src="./pictures/book.jpg"
-            alt="An open book of possibilities"
-          />
-          <div class="portfolio-content-box">
-            <h5>Reactive-Reading</h5>
-            <p class="project-descriptions">
-              Ready for a great new book? This app uses google books api along
-              with react and a Mongo database to support any reader in finding
-              their next life changing book. Simply search for aspects of a book
-              you'd like to read, and once the results have been displayed, save
-              the books you'd like to for later reading.
-            </p>
-            <a
-              target="blank"
-              class="portfolio-link"
-              href="https://reactive-reading.herokuapp.com/"
-              >See the Deployed Project</a
-            >
-            <a
-              target="blank"
-              class="portfolio-link"
-              href="https://github.com/Nick-Haer/reactive-reading"
               >Project Code on Github</a
             >
           </div>
