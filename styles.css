@@ -122,13 +122,13 @@ body {
 }
 #skill-icons-container {
   padding-top: 5px;
-  height: 450px;
+  /* height: 450px; */
   box-shadow: 2px 2px 2px grey;
   margin: 0 auto;
   width: 60%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   gap: 5%;
 }
 
@@ -407,10 +407,10 @@ body {
 
 @media only screen and (max-width: 660px) {
   #skill-icons-container {
-    height: 100vh;
+    height: 140vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
   }
   .skill-image {
     width: 30%;
@@ -428,12 +428,11 @@ body {
 
   #profile-pic {
     height: 150px;
-    width: 70%;
+    width: 50%;
   }
 
   .about-me-grid {
     height: 600px;
-    /* display: grid; */
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
   }
