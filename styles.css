@@ -88,7 +88,6 @@ body {
   left: 0;
   width: 100%;
   top: -650px;
-  /* height: 10%; */
   z-index: -1;
   margin-bottom: -550px;
 }
@@ -122,7 +121,6 @@ body {
 }
 #skill-icons-container {
   padding-top: 5px;
-  /* height: 450px; */
   box-shadow: 2px 2px 2px grey;
   margin: 0 auto;
   width: 60%;
@@ -285,11 +283,8 @@ body {
 
 #learn-more-section {
   padding: 5%;
-  background-color: grey;
+  background-color: #2196f3;
   margin-top: 5%;
-  animation: color-shift;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
 }
 
 #learn-more-container {
@@ -335,6 +330,9 @@ body {
 
 .contact-link {
   color: black;
+}
+.contact-link:hover {
+  color: #f32130;
 }
 
 @media only screen and (max-width: 1250px) {
