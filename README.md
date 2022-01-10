@@ -4,7 +4,7 @@ My web development portfolio, feel free to take a look and see what I've been wo
 Designed to be simple as well as easy to navigate and read, this web app showcases some of the projects I'm proudest of. Take a look at a...
 
 - Fullstack MERN app dedicated to writing and sharing poetry inspired by paintings
-- React Native mobile app that helps you master the road
+- Python/Django and React app utilizing APIs to educate on endangered species
 - Offbeat Fullstack app that uses Rorschach tests to match you with videogames.
 
 ## Overview
